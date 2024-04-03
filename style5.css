@@ -1,0 +1,244 @@
+*{
+    
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: border-box;
+    text-decoration: none;
+}
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 20px;
+    width: 100px;
+   padding: 14px 4px 10px 6px;
+}
+.logo{
+   background-image: url(amazon\ logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 100%; 
+   
+}
+.border{
+  border: 1.5px solid transparent;
+}
+.border:hover {
+  border: 1.5px solid white ;
+}
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 5px;
+}
+.address-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+   /* background-color: yellow;*/
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    border: 3px solid transparent;
+}
+.nav-search:hover {
+    border-radius: 7px;
+    border: 3px solid rgb(255, 145, 0);
+}
+#search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+#search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    color: #0f1111;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: none;
+}
+.nav-first{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+}
+.panel-list p{
+    display: inline;
+    margin-left: 8px;
+}
+.panel-list{
+    width: 60%;
+}
+#prime{
+    background-color: #222f3d;
+    color: white ;
+    border: #222f3d;
+    font-size: 1.1rem; 
+}
+.content{
+    background-image: url("amazon\ background.jpg");
+    background-size: cover;
+    height: 400px;
+}
+.shopping-section1{
+    display: flex;
+    
+    justify-content: space-evenly;
+    background-color: #cca4df;
+}
+.box{
+    
+    height: 490px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.image-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    justify-content: center;
+    align-items:center;
+    height: 400px;
+}
+img{
+    width: 100%;
+    border: 2px solid transparent;
+   
+}
+
+img:hover{
+    border: 2px solid rgb(239, 236, 60);
+}
+.box-content{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  
+}
+.shopping-section2{
+    display: flex;
+    
+    justify-content: space-evenly;
+    background-color: #cca4df;
+   
+}
+.box-content2{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+  }
+  .image-box2{
+    display: flex;
+    
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.back_to_top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: #222f3d;
+    font-size: 15px;
+
+}
+.back_to_top a{
+    color: #fff;
+}
+.footer_detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#1c2020;
+    height: 320px;
+    width:1349px;
+   
+}
+.footercolheader{
+    color: #fff;
+    font-weight: 700;
+    white-space: normal;
+    font-size: 16px;
+    margin: 10px 25px 14px 20px;
+    box-sizing: border-box;
+    display: block;
+    line-height: 150%;
+    
+    padding: 0 10px;
+}
+.footercol ul{
+    list-style-type:none;
+    
+}
+.footercol a{
+    color: rgb(134, 137, 137);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.footerprivacy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid #0f1111;
+    color: #fff;
+    background-color:#1c2020;
+    height: 40px;
+    width: 1345px;
+}
+/* media query */
+@media screen and (max-width: 1326px) {
+    body {
+        flex-direction: column;
+    }
+}
+   
